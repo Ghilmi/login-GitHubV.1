@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+body{
+    position: absolute;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    padding: 20px 15px;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.icon i{
+
+}
+
+header h1{
+    margin: 5px 0;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+header p{
+    opacity: 0.5;
+    color: #eee;
+}
+.allButtons{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    width: 100%;
+}
+.buttonSWG{
+    padding: 5px 0px;
+    background: #9CCC65;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.towButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.towButton span{
+    padding: 3px;
+    /* border: 0.09px solid white; */
+    border-radius: 5px;
+    background: #424242a1;
+    box-shadow: inset 0px 0px 0.1px 1px #ffffff66;
+    width: 100%;
+    font-size: 13px;
+}
+.towButton span:nth-child(1){
+    margin-right: 10px;
+}
+footer p{
+    font-size: 15px;
+    font-weight: 100;
+    opacity: 0.5;
+    color: #eee;
+    padding: 20px 0;
+}
+
+footer div{
+    font-size: 15px;
+    line-height: 1.2;
+}
+.buttonSWG i,span i{
+    margin-right: 15px;
+}
